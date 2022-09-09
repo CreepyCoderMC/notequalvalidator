@@ -2,7 +2,7 @@
   
   "type":         "module",
   "name":         "@teamcoder/notequalvalidator",
-  "version":      "1.0.0",
+  "version":      "1.0.1",
   "description":  "This module is small but easy to use. The purpose of this module is to check if a target value does not equals a source value, it can optionally also do none case sensitive comparing.",
   "main":         "notequelvalidator.js",
 
@@ -39,17 +39,6 @@
 
   "scripts": {
     "test":       "node test.js"
-  },
-
-  "engines": {
-    "node":       ">=10",
-    "npm":        ">=6"
-  },
-
-  "os": [
-                  "windows",
-                  "linux",
-                  "raspberrypi"
-  ]
+  }
 
 }
