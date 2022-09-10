@@ -1,4 +1,4 @@
-import valueIsNotEqual from './notequalvalidator.js';
+import { valueIsNotEqual } from '@teamcoder/notequalvalidator';
 
 console.log( "Testing Condition  1 Passed = " + !valueIsNotEqual( "Hallo world" , "Hallo world"         ) );
 console.log( "Testing Condition  2 Passed = " + valueIsNotEqual(  "Hallo world" , "Hallo World"         ) );

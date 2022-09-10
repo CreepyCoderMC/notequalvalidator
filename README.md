@@ -9,7 +9,7 @@ This method is not case sensitive so both source value and target value can be a
 ## Code sample
 This following code is actually how I tested that all methods correctly functioned as intended, is also provided in this module.
 ```
-import valueIsEqual from './node_modules/@teamcoder/notequalvalidator/notequalvalidator.js';
+import { valueIsEqual } from '@teamcoder/notequalvalidator';
 
 console.log( "Testing Condition  1 Passed = " + !valueIsNotEqual( "Hallo world" , "Hallo world"         ) );
 console.log( "Testing Condition  2 Passed = " + valueIsNotEqual(  "Hallo world" , "Hallo World"         ) );
@@ -40,6 +40,7 @@ Testing Condition 10 Passed = true
 @param  { Any     } source        The source value to be checked
 @param  { Any     } target        The target value to be checked
 @param  { Boolean } caseSensitive If the check must be case sensitive ( optional , default = true )
+
 @return { Boolean }               Validation passed or failed
 ```
 ## Version History
@@ -47,6 +48,7 @@ Testing Condition 10 Passed = true
 |----------|------------------------|-------------------------------------------------------|
 | 1.0.0    | 07 September 2022      | Official first release                                |
 | 1.0.1    | 09 September 2022      | Fixed package.json so that npm can install on any os  |
+| 1.0.2    | 10 September 2022      | Fixed code to be proper npm package                   |
 ## How To Install
 Run the following command in a terminal or command prompt in the folder you want to install the module to.
 > npm i @teamcoder/notequalvalidator

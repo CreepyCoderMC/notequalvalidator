@@ -229,12 +229,14 @@
   *
   *     1.0.0       07 September 2022           Official first
   *     1.0.1       09 September 2022           Fixed package.json so that npm can install on any os
+  *     1.0.2       10 September 2022           Fixed code to be proper npm package
   */
 
  /* Validates if a source value and target value are not equal
   * @param  { Any     } source        The source value to be checked
   * @param  { Any     } target        The target value to be checked
   * @param  { Boolean } caseSensitive If the check must be case sensitive ( optional , default = true )
+  * 
   * @return { Boolean }               Validation passed or failed
   */
 
