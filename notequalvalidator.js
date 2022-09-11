@@ -230,6 +230,7 @@
   *     1.0.0       07 September 2022           Official first
   *     1.0.1       09 September 2022           Fixed package.json so that npm can install on any os
   *     1.0.2       10 September 2022           Fixed code to be proper npm package
+  *     1.0.3       11 Septrmber 2022           Removed Default from export function in notequalvalidator.js file
   */
 
  /* Validates if a source value and target value are not equal
@@ -240,7 +241,7 @@
   * @return { Boolean }               Validation passed or failed
   */
 
-export default function valueIsNotEqual( source , target , caseSensitive = true ) {
+export function valueIsNotEqual( source , target , caseSensitive = true ) {
 
     // Makes source value and target value lower case if validation is not case sensitive 
     if( !caseSensitive ) {
